@@ -2,8 +2,11 @@ package machine;
 
 public class CoffeeMachine {
     public static void main(String[] args) {
+        AskUser.askHowManyMlOfWaterMachineHas();
+        AskUser.askHowManyMlOfMilkMachineHas();
+        AskUser.askHowManyGmOfCoffeeMachineHas();
         AskUser.askHowManyCupsOfCoffeeWillNeeded();
-        RequiredIngrediant.printRequiredIngrediantNeeded();
+        RequiredIngrediant.isSupplyEnough();
     }
 
     static void makeMyCoffee() {
