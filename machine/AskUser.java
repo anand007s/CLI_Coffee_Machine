@@ -6,11 +6,6 @@ public class AskUser {
 
     static String action;
     static String buy;
-    private static void askHowManyCupsOfCoffeeWillNeeded() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Write how many cups of coffee you will need:");
-        RequiredIngrediant.totalCupOfCoffeeNeeded = scanner.nextInt();
-    }
 
     private static void askHowManyMlOfWaterMachineHas() {
         Scanner scanner = new Scanner(System.in);
